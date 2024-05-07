@@ -1,0 +1,25 @@
+{
+  "name": "swift-react-omochi-template",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^20.12.7",
+    "@types/path-browserify": "^1.0.2",
+    "@wasmer/wasi": "^0.12.0",
+    "@wasmer/wasmfs": "^0.12.0",
+    "path-browserify": "^1.0.1",
+    "typescript": "^5.4.5",
+    "vite": "^5.2.10"
+  },
+  "devDependencies": {
+    "chokidar": "^3.6.0"
+  }
+}

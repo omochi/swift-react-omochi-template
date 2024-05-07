@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>omochi template</title>
+    <link rel="stylesheet" type="text/css" href="/style.css">
+    <script type="module">
+        import { load } from "/src/loader/load.ts";
+        import wasmURL from "/.build/wasm32-unknown-wasi/debug/app.wasm?url";
+        load(wasmURL);
+    </script>
+</head>
+<body>
+</body>
+</html>
